@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 900px;
+  height: auto;
+  margin: 40px auto;
+  background: linear-gradient(70deg,#dff9fb,white);
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: 80%;
+  border: 1px solid black;
+  padding: 15px;
+  background-color:#c7ecee;
+  box-shadow: 10px 5px 5px lightgrey;
+  
+}
+.add-form {
+  
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:#c7ecee;
+}
+
+.add-form input {
+  padding: 3px;
+  width: 70%;
+  outline: none;
+}
+.add-form button {
+  width: 30%;
+  padding: 3px;
+  background-color: #535c68;
+  color: white;
+  border: none;
+}
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+.card p {
+  margin-top: 5px;
+}
+.product-name {
+  font-size: 20px;
+}
+.delete-button {
+  padding: 5px;
+  background-color:#535c68;
+  color: white;
+  border: none;
+  margin-top: 5px;  
+  width: 20%;
+  align-self: flex-end;
+ 
+}
